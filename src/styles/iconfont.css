@@ -65,6 +65,14 @@
   content: '\e7d2';
 }
 
+.icon-discord-fill:before {
+  content: '\ec37';
+}
+
+.icon-discord-line:before {
+  content: '\ec38';
+}
+
 .icon-down:before {
   content: '\e83d';
 }
