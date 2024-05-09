@@ -37,8 +37,8 @@ avatar: 头像地址
 网站名称：闪电豹猫的自留地
 网站地址：https://hhzm.win/
 网站 RSS：https://hhzm.win/rss.xml
-头像地址：https://hhzm.win/avatar.png
 GitHub 地址：https://github.com/wtflmao
+头像地址：https://s21.ax1x.com/2024/05/09/pkZFzkV.png
 我的简介：（这里留给你自己发挥咯，兄弟）
 ```
 
