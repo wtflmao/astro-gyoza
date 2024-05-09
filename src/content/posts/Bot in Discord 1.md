@@ -326,7 +326,7 @@ client.login(token);
 ```
 
 在 `工程根文件夹` 下创建文件夹 `commands`，在这个文件夹里创建文件 `ping.js`，写入：
-```node
+```js
 const { SlashCommandBuilder } = require('discord.js');  
   
 module.exports = {  

@@ -219,7 +219,7 @@ client.on('interactionCreate', async interaction => {
 
 如果 `.execute()` 出现了错误，则将抛出一个异常，并在 Discord 上回复 `There was an error while executing this command!`，且只有命令发起者和机器人自己能看到。
 
-```node
+```js
 client.login(token);
 ```
 
