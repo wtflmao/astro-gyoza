@@ -1,5 +1,5 @@
 ---
-title: Bot in Discord with discord.js (8)
+title: Bot in Discord with discord.js (9)
 date: 2022-11-19
 tags: [Discord bot, JS]
 category: Discord.js
