@@ -10,8 +10,8 @@
   },
   "author": {
     "name": "闪电豹猫",
-    "twitterId": "@discord",
-    "avatar": "https://pic.cnblogs.com/avatar/2455224/20210709015701.png"
+    "twitterId": "",
+    "avatar": "/avatar.png"
   },
   "hero": {
     "name": "hhzm",
@@ -37,7 +37,7 @@
         "color": "rgb(212, 70, 56)"
       }
     ],
-    "yiyan": "当你有机会做出选择的时候，不要让自己后悔"
+    "yiyan": "当你有机会做出选择的时候，不要让自己后悔。"
   },
   "color": {
     "accent": [
