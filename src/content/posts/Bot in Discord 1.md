@@ -1,6 +1,6 @@
 ---
 title: Bot in Discord with discord.js (1)
-date: 2022-07-09
+date: 2022-07-08
 tags: [Discord bot, JS]
 category: Discord.js
 summary: 这是一份非常详细和系统化的利用 NodeJS 进行 Discord bot 开发的教程，本文介绍了环境搭建、工程初始化、无脑实现一个能跑起来的 bot、与 bot 交互的内容，涵盖了 Discord 机器人开发的方方面面，对于初学者来说非常实用，值得认真学习。
