@@ -1,6 +1,6 @@
 ---
 title: Bot in Discord with discord.js (8)
-date: 2022-07-13
+date: 2022-07-15
 tags: [Discord bot, JS]
 category: Discord.js
 summary: 这是一份非常详细和系统化的利用 NodeJS 进行 Discord bot 开发的教程，本文介绍了什么是事件处理 Event handling。NodeJS 本身就是一个事件驱动的框架，DiscordJS 也完全按照事件驱动的思路进行构建的，因此，学习事件处理的方法是很重要的。除此之外，还完成了自动完成 Autocomplete，可类比于搜索引擎的自动填充。

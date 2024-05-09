@@ -1,6 +1,6 @@
 ---
 title: Bot in Discord with discord.js (6)
-date: 2022-07-12
+date: 2022-07-13
 tags: [Discord bot, JS]
 category: Discord.js
 summary: 这是一份非常详细和系统化的利用 NodeJS 进行 Discord bot 开发的教程，本文介绍了选项 Option 命令的构建方法，包括单选和多选。
