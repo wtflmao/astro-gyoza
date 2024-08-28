@@ -3,7 +3,7 @@ title: Bot in Discord with discord.js (17)
 date: 2024-05-09
 tags: [Discord bot, JS]
 category: Discord.js
-summary: 这是一份非常详细和系统化的利用 NodeJS 进行 Discord bot 开发的教程，本文介绍了如何利用钩子 Webhook 向对应频道发送消息而无需自行建立 bot 的方法。
+
 ---
 
 # Chapter 20 - Webhook 钩子
