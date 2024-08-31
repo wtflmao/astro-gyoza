@@ -23,20 +23,20 @@
     $style.textContent = `html {
   --color-accent: ${getRgbVal(chroma(accentColor.light))};
   --color-bg-root: ${getRgbVal(rootBgColor.light)};
-  --color-bg-primary: ${getRgbVal(chroma(themeColor.bg.primary.light))};
-  --color-bg-secondary: ${getRgbVal(chroma(themeColor.bg.secondary.light))};
-  --color-text-primary: ${getRgbVal(chroma(themeColor.text.primary.light))};
-  --color-text-secondary: ${getRgbVal(chroma(themeColor.text.secondary.light))};
-  --color-border-primary: ${getRgbVal(chroma(themeColor.border.primary.light))};
+  --color-bg-primary: ${getRgbVal(chroma(themeColor.accent[0].light))};
+  --color-bg-secondary: ${getRgbVal(chroma(themeColor.accent[0].light))};
+  --color-text-primary: ${getRgbVal(chroma(themeColor.accent[1].light))};
+  --color-text-secondary: ${getRgbVal(chroma(themeColor.accent[1].light))};
+  --color-border-primary: ${getRgbVal(chroma(themeColor.accent[2].light))};
 }
 [data-theme='dark'] {
   --color-accent: ${getRgbVal(chroma(accentColor.dark))};
   --color-bg-root: ${getRgbVal(rootBgColor.dark)};
-  --color-bg-primary: ${getRgbVal(chroma(themeColor.bg.primary.dark))};
-  --color-bg-secondary: ${getRgbVal(chroma(themeColor.bg.secondary.dark))};
-  --color-text-primary: ${getRgbVal(chroma(themeColor.text.primary.dark))};
-  --color-text-secondary: ${getRgbVal(chroma(themeColor.text.secondary.dark))};
-  --color-border-primary: ${getRgbVal(chroma(themeColor.border.primary.dark))};
+  --color-bg-primary: ${getRgbVal(chroma(themeColor.accent[0].dark))};
+  --color-bg-secondary: ${getRgbVal(chroma(themeColor.accent[0].dark))};
+  --color-text-primary: ${getRgbVal(chroma(themeColor.accent[1].dark))};
+  --color-text-secondary: ${getRgbVal(chroma(themeColor.accent[1].dark))};
+  --color-border-primary: ${getRgbVal(chroma(themeColor.accent[2].dark))};
 }`
     document.head.appendChild($style)
   }

@@ -96,5 +96,18 @@
   },
   "sponsor": {
     "wechat": "/doge.png"
+  },
+  "analytics": {
+    "enable": false,
+    "google": {
+      "measurementId": ""
+    },
+    "umami": {
+      "serverUrl": "",
+      "websiteId": ""
+    },
+    "microsoftClarity": {
+      "projectId": ""
+    }
   }
 }
