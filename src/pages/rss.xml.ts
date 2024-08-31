@@ -17,8 +17,8 @@ export async function GET(context: APIContext) {
       link: `/posts/${post.slug}`,
       title: post.data.title,
       pubDate: post.data.date,
-      description: post.data.description,
-      content: sanitizeHtml(parser.render(post.data.body), {
+      description: post.data.summary,
+      content: sanitizeHtml(parser.render(post.body), {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
       }),
     })),
