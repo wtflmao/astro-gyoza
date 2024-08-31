@@ -14,9 +14,7 @@ const wordCount = await getAllPostsWordCount()
 const wordCountStr = (wordCount / 1000).toFixed(1) + 'k'
 ---
 
-<footer
-  class="relative z-1 py-8 px-4 md:px-8 border-t border-zinc-200 dark:border-zinc-700 text-base/80 text-sm"
->
+<footer class="relative z-1 py-8 px-4 md:px-8 border-t border-primary text-secondary text-sm">
   <div class="text-center space-y-2">
     <div>
       Powered by
@@ -26,11 +24,11 @@ const wordCountStr = (wordCount / 1000).toFixed(1) + 'k'
     </div>
     <div class="space-x-1">
       <span>&copy;{copyDate} <Link href="/">{author.name}</Link>.</span>
-      <Link href="/rss.xml">
+      <Link href="/rss.xml" data-no-swup>
         <i class="iconfont icon-rss"></i>
         <span>RSS</span>
       </Link>
-      <Link href="/sitemap-index.xml">
+      <Link href="/sitemap-index.xml" data-no-swup>
         <i class="iconfont icon-map"></i>
         <span>站点地图</span>
       </Link>

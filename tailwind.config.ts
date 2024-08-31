@@ -1,5 +1,4 @@
 import type { Config } from 'tailwindcss'
-import typography from '@tailwindcss/typography'
 
 const config: Config = {
   content: ['./src/**/*.{astro,ts,tsx,js,jsx}'],
@@ -31,14 +30,19 @@ const config: Config = {
     },
     extend: {
       colors: {
-        accent: 'rgb(var(--accent) / <alpha-value>)',
-      },
-      backgroundColor: {
-        base: 'rgb(var(--base-bg) / <alpha-value>)',
-        root: 'rgb(var(--root-bg) / <alpha-value>)',
+        accent: 'rgb(var(--color-accent) / <alpha-value>)',
       },
       textColor: {
-        base: 'rgb(var(--base-content) / <alpha-value>)',
+        primary: 'rgb(var(--color-text-primary))',
+        secondary: 'rgb(var(--color-text-secondary))',
+      },
+      backgroundColor: {
+        root: 'rgb(var(--color-bg-root))',
+        primary: 'rgb(var(--color-bg-primary))',
+        secondary: 'rgb(var(--color-bg-secondary))',
+      },
+      borderColor: {
+        primary: 'rgb(var(--color-border-primary))',
       },
       minHeight: {
         main: 'calc(100vh - 200px)',
@@ -51,7 +55,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [typography],
 }
 
 export default config

@@ -2,6 +2,7 @@ import { author, site } from '@/config.json'
 import { getFormattedDateTime } from '@/utils/date'
 import { AnimatedSignature } from '../AnimatedSignature'
 import { useEffect, useState } from 'react'
+import { toast } from "react-toastify";
 
 function getPostUrl(slug: string) {
   return new URL(slug, site.url).href
@@ -21,6 +22,7 @@ export function PostCopyright({
 
   function handleCopyUrl() {
     navigator.clipboard.writeText(url)
+    toast.success('已复制文章链接')
   }
 
   useEffect(() => {
@@ -28,7 +30,7 @@ export function PostCopyright({
   }, [lastMod])
 
   return (
-    <section className="text-xs leading-loose">
+    <section className="text-xs leading-loose text-secondary">
       <p>文章标题：{title}</p>
       <p>文章作者：{author.name}</p>
       <p>
@@ -38,7 +40,7 @@ export function PostCopyright({
         </span>
       </p>
       <p>最后修改时间：{lastModStr}</p>
-      <hr className="my-3 border-zinc-200 dark:border-zinc-700" />
+      <hr className="my-3 border-primary" />
       <div>
         <div className="float-right ml-4 my-2">
           <AnimatedSignature />

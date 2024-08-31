@@ -2,6 +2,7 @@
 @import './shiki.css';
 @import './markdown.css';
 @import './signature.css';
+@import './swup.css';
 
 @font-face {
   font-family: 'Atkinson';
@@ -10,6 +11,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Atkinson';
   src: url('/fonts/atkinson-bold.woff') format('woff');
@@ -22,17 +24,21 @@
   background-color: theme('colors.accent');
   color: white;
 }
+
 [data-theme='dark'] ::selection {
   background-color: theme('colors.accent/0.3');
 }
 
 html {
-  color: theme('textColor.base');
+  color: theme('textColor.primary');
   background-color: theme('backgroundColor.root');
-  @apply scroll-smooth;
   scroll-padding-top: 64px;
 }
 
 html.gray {
   filter: grayscale(1);
+}
+
+* {
+  scrollbar-width: thin;
 }
